@@ -8,23 +8,27 @@ You can return the answer in any order.
 
 ### <b>Example 1:</b>
 
-> <b>Input</b>: nums = [2,7,11,15], target = 9 <br> > <b>Output</b>: [0,1] <br> > <b>Output</b>: Because nums[0] + nums[1] == 9, we return [0, 1].
+> <b>Input</b>: nums = [2,7,11,15], target = 9 <br> 
+> <b>Output</b>: [0,1] <br> 
+> <b>Output</b>: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 ### <b>Example 2:</b>
 
-> <b>Input</b>: nums = [3,2,4], target = 6 <br> > <b>Output</b>: [1,2]
+> <b>Input</b>: nums = [3,2,4], target = 6 <br> 
+> <b>Output</b>: [1,2]
 
 ### <b>Example 3:</b>
 
-> <b>Input</b>: nums = [3,3], target = 6 <br> > <b>Output</b>: [0,1]
+> <b>Input</b>: nums = [3,3], target = 6 <br> 
+> <b>Output</b>: [0,1]
 
 <br>
 
 ### <b>Constraints:</b>
 
 - 2 <= nums.length <= 10<sup>3 <br>
-- -10<sup>9 <= nums[i] <= 10<sup>9 <br>
-- -10<sup>9 <= target <= 10<sup>9 <br>
+- -10<sup>9</sup> <= nums[i] <= 10<sup>9</sup> <br>
+- -10<sup>9</sup> <= target <= 10<sup>9</sup> <br>
 - <b>Only one valid answer exists.</b>
 
 <br>
@@ -57,7 +61,7 @@ twoSum([1, 2, 3, 4], 7); // [2, 3]
 
 #### <b>2. 모범 답안</b>
 
-(1) Using Object
+#### (1) Using Object
 
 ```javascript
 const twoSum = (nums, target) => {

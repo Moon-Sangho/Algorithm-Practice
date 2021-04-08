@@ -51,6 +51,8 @@ const isPalindrome = (x) => {
 
 이상하게 아래의 테스트 케이스에서 계속 걸려서 통과가 되지 않았다.
 
+![image](https://user-images.githubusercontent.com/62928788/113951008-a0a4f100-984d-11eb-9183-dbffafd18b73.png)
+
 x의 범위 문제인건가 해서 console.log로 값을 계속 확인해 보았으나,
 범위 문제는 아닌 것 같았다. 버그인가.. 하고 다른 사람들의  답안을 찾아보았다.
 
